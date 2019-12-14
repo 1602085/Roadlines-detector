@@ -1,7 +1,7 @@
 import cv2                
 import numpy as np
 
-img=cv2.imread("/home/shikha/Documents/road1.jpeg")  # read bgr image
+img=cv2.imread("/home/shikha/Documents/road1.jpeg")  # read rgb image
 gray=cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)    # convert bgr image to gray
 
 
